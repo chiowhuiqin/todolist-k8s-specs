@@ -34,7 +34,7 @@ spec:
               protocol: TCP
           resources: {}
           volumeMounts:
-            - mountPath: config.json
+            - mountPath: /app/config/config.json
               name: appsettings
               subPath: config.json
       restartPolicy: Always
